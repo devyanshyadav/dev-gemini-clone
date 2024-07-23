@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   publisher: "Your Name or Company",
   openGraph: {
     title: "Dev Gemini Clone",
-    description: "Experience the power of AI with our Gemini-inspired assistant",
+    description: "An advanced GEMINI Clone built with Next.js, featuring enhanced functionalities and faster response times.",
     url: "https://dev-gemini-clone.vercel.app",
     siteName: "Dev Gemini Clone",
     images: [

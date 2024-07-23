@@ -171,7 +171,7 @@ const InputPrompt = ({ user }: { user?: User }) => {
   return (
     <div className=" flex-shrink-0 w-full md:px-10 px-5 pb-2 space-y-2 bg-white dark:bg-[#131314]">
       {inputImgName &&
-        <div className="max-w-3xl overflow-hidden w-full mx-auto">
+        <div className="max-w-4xl overflow-hidden w-full mx-auto">
           <div className="p-5 w-fit relative max-w-full overflow-hidden bg-rtlLight group dark:bg-rtlDark rounded-t-3xl flex items-start gap-2">
             <MdImageSearch className="text-4xl" />
             <p className="text-lg font-semibold truncate"> {inputImgName}</p>

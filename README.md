@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Advanced Gemini Clone
+
+![Gemini Clone Logo](public/assets/gemini-banner.svg)
+
+An advanced GEMINI Clone built with Next.js, featuring enhanced functionalities and faster response times.
+
+## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Technology Stack](#technology-stack)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [License](#license)
+
+## Overview
+
+This project is an advanced recreation of the GEMINI AI platform, leveraging Next.js as a full-stack React framework. It incorporates all core functionalities of the actual GEMINI while providing natural, optimized responses that outperform the original in terms of speed.
+
+## Features
+
+### Authentication and State Management
+- 🔐 Robust authentication using Next Auth v5
+- 🔄 Efficient state management with Zustand
+
+### User Interface and Experience
+- ✨ Micro-animations powered by Framer Motion
+- 🎨 Custom in-house components for UI flexibility
+- 🌓 Dark and light mode toggle
+- 📱 Fully responsive design for both desktop and mobile
+
+### Chat Functionality
+- 💬 Advanced chat features including rename, delete, and pin
+- 🗣️ Text-to-speech and speech-to-text capabilities
+- 🔗 Share chats and copy to clipboard
+- ⏹️ Abort functionality for stopping responses
+- 🖼️ Chat with images, including mobile support
+- 🔄 Response modification and regeneration
+
+### Advanced Features
+- 🎭 Prompt Gallery for model-specific outputs
+- ✏️ Edit Prompt functionality
+- 🌈 Syntax highlighting for code outputs
+- 💡 Random prompt suggestions on homepage
+
+## Technology Stack
+
+- **Frontend Framework**: Next.js (React)
+- **Authentication**: Next Auth v5
+- **State Management**: Zustand
+- **Animations**: Framer Motion
+- **UI Components**: Custom dev-components
+- **Theming**: Next Themes
 
 ## Getting Started
 
-First, run the development server:
+To get a local copy up and running, follow these steps:
 
 ```bash
+# Clone the repository
+git clone https://github.com/yourusername/gemini-clone.git
+
+# Navigate to the project directory
+cd gemini-clone
+
+# Install dependencies
+npm install
+
+# Start the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

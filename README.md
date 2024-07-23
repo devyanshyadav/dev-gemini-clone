@@ -60,7 +60,7 @@ To get a local copy up and running, follow these steps:
 git clone https://github.com/yourusername/dev-gemini-clone.git
 
 # Navigate to the project directory
-cd dec-gemini-clone
+cd dev-gemini-clone
 
 # Install dependencies
 npm install

@@ -1,0 +1,236 @@
+[
+    {
+        "title": "SEO",
+        "tags": ["seo", "marketing"],
+        "placeholder": "Hi, I can help with local SEO strategies.",
+        "prompt": "Create a local SEO strategy for [insert company name] with [insert number] locations in [insert region/country]. Include GMB optimization, local directories, citation opportunities, localized content, and review management."
+    },
+    { 
+        "title": "Note-taking",
+        "tags": ["note-taking"],
+        "placeholder": "Hi, I can guide you on note-taking techniques.",
+        "prompt": "Guide me on effective note-taking techniques for lectures, meetings, and studying. Include methods like Cornell and mind mapping, and offer tips on summarizing, highlighting, and revising notes."
+    },
+    {
+        "title": "Social Media Strategy",
+        "tags": ["social media", "marketing"],
+        "placeholder": "Hi, I can help with social media strategies.",
+        "prompt": "Develop a social media strategy for [company name] to increase engagement and followers across platforms. Include content ideas, posting schedules, and engagement tactics."
+    },
+    {
+        "title": "Content Marketing",
+        "tags": ["content marketing", "marketing"],
+        "placeholder": "Hi, I can help with content marketing plans.",
+        "prompt": "Create a content marketing plan for [company name] focusing on blog posts, videos, and social media. Include topics, frequency, and promotion strategies."
+    },
+    {
+        "title": "Email Marketing",
+        "tags": ["email marketing", "marketing"],
+        "placeholder": "Hi, I can help with email marketing campaigns.",
+        "prompt": "Design an email marketing campaign for [company name] to boost customer retention and sales. Include subject lines, email content, and scheduling."
+    },
+    {
+        "title": "Project Management",
+        "tags": ["project management", "productivity"],
+        "placeholder": "Hi, I can assist with project management tips.",
+        "prompt": "Provide tips for managing a software development project using Agile methodologies. Include sprint planning, task prioritization, and team communication strategies."
+    },
+    {
+        "title": "Time Management",
+        "tags": ["time management", "productivity"],
+        "placeholder": "Hi, I can offer time management techniques.",
+        "prompt": "Share effective time management techniques for balancing work and personal life. Include methods like Pomodoro, time blocking, and prioritization."
+    },
+    {
+        "title": "Remote Work",
+        "tags": ["remote work", "productivity"],
+        "placeholder": "Hi, I can offer tips for remote work.",
+        "prompt": "Offer advice for staying productive while working remotely. Include tips on setting up a home office, maintaining work-life balance, and using remote collaboration tools."
+    },
+    {
+        "title": "Web Development",
+        "tags": ["web development", "coding"],
+        "placeholder": "Hi, I can guide you on web development.",
+        "prompt": "Provide best practices for developing a responsive website using HTML, CSS, and JavaScript. Include tips on layout, accessibility, and performance optimization."
+    },
+    {
+        "title": "UX Design",
+        "tags": ["ux design", "design"],
+        "placeholder": "Hi, I can help with UX design strategies.",
+        "prompt": "Create a UX design strategy for a mobile app. Include user research methods, wireframing techniques, and usability testing."
+    },
+    {
+        "title": "Career Development",
+        "tags": ["career development", "self-improvement"],
+        "placeholder": "Hi, I can offer career development advice.",
+        "prompt": "Offer advice on advancing in a tech career. Include tips on skill development, networking, and finding mentorship opportunities."
+    },
+    {
+        "title": "Public Speaking",
+        "tags": ["public speaking", "communication"],
+        "placeholder": "Hi, I can help with public speaking tips.",
+        "prompt": "Provide tips for improving public speaking skills. Include techniques for managing anxiety, structuring a speech, and engaging an audience."
+    },
+    {
+        "title": "Entrepreneurship",
+        "tags": ["entrepreneurship", "business"],
+        "placeholder": "Hi, I can offer advice on entrepreneurship.",
+        "prompt": "Give advice on starting a new business. Include tips on market research, creating a business plan, and securing funding."
+    },
+    {
+        "title": "Digital Marketing",
+        "tags": ["digital marketing", "marketing"],
+        "placeholder": "Hi, I can help with digital marketing strategies.",
+        "prompt": "Develop a digital marketing strategy for [company name]. Include SEO, social media, content marketing, and paid advertising tactics."
+    },
+    {
+        "title": "Health and Wellness",
+        "tags": ["health", "wellness"],
+        "placeholder": "Hi, I can offer health and wellness tips.",
+        "prompt": "Share tips for maintaining a healthy lifestyle. Include advice on nutrition, exercise, and mental well-being."
+    },
+    {
+        "title": "Financial Planning",
+        "tags": ["financial planning", "personal finance"],
+        "placeholder": "Hi, I can help with financial planning.",
+        "prompt": "Provide strategies for personal financial planning. Include tips on budgeting, saving, investing, and managing debt."
+    },
+    {
+        "title": "Software Development",
+        "tags": ["software development", "coding"],
+        "placeholder": "Hi, I can guide you on software development.",
+        "prompt": "Offer best practices for developing scalable software applications. Include tips on code quality, version control, and testing."
+    },
+    {
+        "title": "Machine Learning",
+        "tags": ["machine learning", "ai"],
+        "placeholder": "Hi, I can explain machine learning basics.",
+        "prompt": "Explain the basics of machine learning. Include an overview of algorithms, model training, and real-world applications."
+    },
+    {
+        "title": "Travel Planning",
+        "tags": ["travel", "planning"],
+        "placeholder": "Hi, I can help with travel planning.",
+        "prompt": "Provide tips for planning an international trip. Include advice on finding flights, booking accommodations, and creating an itinerary."
+    },
+    {
+        "title": "Event Planning",
+        "tags": ["event planning", "organization"],
+        "placeholder": "Hi, I can guide you on event planning.",
+        "prompt": "Share strategies for planning a successful event. Include tips on budgeting, venue selection, and marketing the event."
+    },
+    {
+        "title": "Blog Writing",
+        "tags": ["blogging", "writing"],
+        "placeholder": "Hi, I can help with blog writing tips.",
+        "prompt": "Give tips for writing engaging blog posts. Include advice on topic selection, structuring content, and SEO optimization."
+    },
+    {
+        "title": "Graphic Design",
+        "tags": ["graphic design", "design"],
+        "placeholder": "Hi, I can offer graphic design tips.",
+        "prompt": "Provide best practices for creating visually appealing graphics. Include tips on color theory, typography, and layout design."
+    },
+    {
+        "title": "Personal Branding",
+        "tags": ["personal branding", "self-improvement"],
+        "placeholder": "Hi, I can help with personal branding.",
+        "prompt": "Offer advice on building a strong personal brand. Include tips on social media presence, networking, and creating a personal website."
+    },
+    {
+        "title": "Investment Strategies",
+        "tags": ["investment", "finance"],
+        "placeholder": "Hi, I can share investment strategies.",
+        "prompt": "Share strategies for long-term investing. Include tips on diversification, risk management, and selecting investment vehicles."
+    },
+    {
+        "title": "Customer Service",
+        "tags": ["customer service", "business"],
+        "placeholder": "Hi, I can help with customer service tips.",
+        "prompt": "Provide tips for delivering excellent customer service. Include advice on communication skills, handling complaints, and building customer loyalty."
+    },
+    {
+        "title": "Data Analysis",
+        "tags": ["data analysis", "analytics"],
+        "placeholder": "Hi, I can guide you on data analysis.",
+        "prompt": "Explain the basics of data analysis. Include an overview of data collection methods, tools for analysis, and interpreting results."
+    },
+    {
+        "title": "Cybersecurity",
+        "tags": ["cybersecurity", "technology"],
+        "placeholder": "Hi, I can help with cybersecurity practices.",
+        "prompt": "Give an overview of essential cybersecurity practices. Include tips on protecting personal data, securing networks, and responding to breaches."
+    },
+    {
+        "title": "Team Leadership",
+        "tags": ["leadership", "management"],
+        "placeholder": "Hi, I can offer team leadership tips.",
+        "prompt": "Share strategies for effective team leadership. Include advice on communication, conflict resolution, and motivating team members."
+    },
+    {
+        "title": "E-commerce",
+        "tags": ["e-commerce", "business"],
+        "placeholder": "Hi, I can help with e-commerce strategies.",
+        "prompt": "Develop a strategy for launching an e-commerce store. Include tips on selecting a platform, product listing, and marketing."
+    },
+    {
+        "title": "Digital Transformation",
+        "tags": ["digital transformation", "business"],
+        "placeholder": "Hi, I can explain digital transformation.",
+        "prompt": "Explain how businesses can undergo digital transformation. Include steps for adopting new technologies and changing business processes."
+    },
+    {
+        "title": "Market Research",
+        "tags": ["market research", "business"],
+        "placeholder": "Hi, I can help with market research.",
+        "prompt": "Provide steps for conducting market research. Include methods for data collection, analyzing trends, and identifying target audiences."
+    },
+    {
+        "title": "Sales Strategies",
+        "tags": ["sales", "business"],
+        "placeholder": "Hi, I can offer sales strategy tips.",
+        "prompt": "Share effective sales strategies for B2B companies. Include tips on prospecting, pitching, and closing deals."
+    },
+    {
+        "title": "Negotiation Skills",
+        "tags": ["negotiation", "business"],
+        "placeholder": "Hi, I can guide you on negotiation skills.",
+        "prompt": "Offer tips for improving negotiation skills. Include techniques for preparing, building rapport, and finding win-win solutions."
+    },
+    {
+        "title": "Personal Finance",
+        "tags": ["personal finance", "money management"],
+        "placeholder": "Hi, I can help with personal finance management.",
+        "prompt": "Share tips for managing personal finances. Include advice on budgeting, saving, and planning for retirement."
+    },
+    {
+        "title": "Fitness Routine",
+        "tags": ["fitness", "health"],
+        "placeholder": "Hi, I can guide you on fitness routines.",
+        "prompt": "Provide tips for creating an effective fitness routine. Include advice on workout types, frequency, and goal setting."
+    },
+    {
+        "title": "Creative Writing",
+        "tags": ["creative writing", "writing"],
+        "placeholder": "Hi, I can help with creative writing tips.",
+        "prompt": "Share tips for improving creative writing skills. Include techniques for developing characters, plotting stories, and overcoming writer's block."
+    },
+    {
+        "title": "Language Learning",
+        "tags": ["language learning", "education"],
+        "placeholder": "Hi, I can offer language learning strategies.",
+        "prompt": "Provide strategies for learning a new language. Include tips on practice routines, using language apps, and immersing in the culture."
+    },
+    {
+        "title": "Photography",
+        "tags": ["photography", "art"],
+        "placeholder": "Hi, I can help with photography tips.",
+        "prompt": "Share tips for improving photography skills. Include advice on camera settings, composition, and post-processing techniques."
+    },
+    {
+        "title": "Mindfulness",
+        "tags": ["mindfulness", "well-being"],
+        "placeholder": "Hi, I can guide you on mindfulness practices.",
+        "prompt": "Provide tips for incorporating mindfulness into daily life. Include advice on meditation techniques, breathing exercises, and mindful living."
+    }
+]

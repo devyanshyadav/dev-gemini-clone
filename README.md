@@ -17,6 +17,7 @@ An advanced GEMINI Clone built with Next.js, featuring enhanced functionalities 
 This project is an advanced recreation of the GEMINI AI platform, leveraging Next.js as a full-stack React framework. It incorporates all core functionalities of the actual GEMINI while providing natural, optimized responses that outperform the original in terms of speed.
 
 ## Features
+![Gemini Features](public/assets/gemini-features.png)
 
 ### Authentication and State Management
 - 🔐 Robust authentication using Next Auth v5

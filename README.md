@@ -1,6 +1,6 @@
 # Advanced Gemini Clone
 
-![Gemini Clone Logo](public/assets/gemini-banner.svg)
+![Gemini Clone Logo](public/assets/readme-banner.png)
 
 An advanced GEMINI Clone built with Next.js, featuring enhanced functionalities and faster response times.
 
@@ -57,10 +57,10 @@ To get a local copy up and running, follow these steps:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/gemini-clone.git
+git clone https://github.com/yourusername/dev-gemini-clone.git
 
 # Navigate to the project directory
-cd gemini-clone
+cd dec-gemini-clone
 
 # Install dependencies
 npm install

@@ -23,7 +23,7 @@ import { SiGooglegemini } from "react-icons/si";
 import { LuGalleryHorizontalEnd } from "react-icons/lu";
 
 const SideBar = ({ user, sidebarList }: { user?: User; sidebarList: any }) => {
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState(false);
   const router = useRouter();
   const { chat } = useParams()
 

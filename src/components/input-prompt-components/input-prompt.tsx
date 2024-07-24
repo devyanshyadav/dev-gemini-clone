@@ -84,7 +84,6 @@ const InputPrompt = ({ user }: { user?: User }) => {
         const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
         try {
           const imagePart = await fileToGenerativePart(inputImg);
-          console.log(imagePart)
           const result = await model.generateContent([detailedPrompt, imagePart as string]);
           text = result.response.text();
           setCurrChat("llmResponse", text);

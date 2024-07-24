@@ -68,7 +68,7 @@ const SideBar = ({ user, sidebarList }: { user?: User; sidebarList: any }) => {
             <IoMdAdd className="text-xl" /> {open && "New chat"}
           </DevButton>
         </ReactTooltip>
-        {open && <h2 className="pl-3 mt-10">Recent</h2>}
+        {open && <h2 className="pl-3 mt-10">{sidebarList.success && sidebarList.message.length > 0 && "Recent"}</h2>}
       </div>
       <div className={`${open ? "block" : "hidden"} flex-grow overflow-y-auto`}>
         <SidebarChatList sidebarList={sidebarList} />

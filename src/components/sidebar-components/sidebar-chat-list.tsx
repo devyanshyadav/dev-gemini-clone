@@ -166,7 +166,7 @@ const SidebarChatList = ({ sidebarList }: any) => {
   return (
     <>
       <ul className="mt-2 space-y-1 ">
-        {sidebarList.success &&
+        {sidebarList.success && sidebarList.message.length > 0 &&
           sidebarList.message.map((item: any) => (
             <li key={item.chatID}>
               <DevButton
@@ -215,7 +215,7 @@ const SidebarChatList = ({ sidebarList }: any) => {
                               size="lg"
                               onClick={() => setSettings(item.chatID)}
                               rounded="full" variant="v3" asIcon className={`${item.chatID === chat ? " !flex " : " !hidden "}`}>
-                              <HiOutlineDotsVertical/>
+                              <HiOutlineDotsVertical />
                             </DevButton>
 
                           </div>, document.body
@@ -230,10 +230,10 @@ const SidebarChatList = ({ sidebarList }: any) => {
                         try {
                           setTopLoader(true);
                           await pinChat(item.chatID, !item.isPinned);
-                          if(item.isPinned){
+                          if (item.isPinned) {
                             setToast("Unpinned successfully");
                           }
-                          else{
+                          else {
                             setToast("Pinned successfully");
                           }
                         } catch (error) {

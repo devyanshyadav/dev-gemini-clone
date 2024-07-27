@@ -141,7 +141,7 @@ const InputPrompt = ({ user }: { user?: User }) => {
 
   const handleKeyDown = useCallback(
     (e: React.KeyboardEvent<HTMLTextAreaElement>) => {
-    if (!user) { setToast('Please login to use Gemini!') }
+    if (!user) { setToast('Please sign in to use Gemini!') }
       if (e.key === "Enter" && !e.shiftKey) {
         cancelRef.current = false;
         generateMsg();

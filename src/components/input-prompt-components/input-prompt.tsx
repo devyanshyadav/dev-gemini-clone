@@ -30,6 +30,7 @@ const InputPrompt = ({ user }: { user?: User }) => {
 
   const generateMsg = useCallback(async () => {
     if (!currChat.userPrompt?.trim() || !user) return;
+    if (!user) { setToast('Please login to use Gemini!') }
     router.push(`/app/${chatID}#new-chat`);
     const date = new Date().toISOString().split("T")[0];
     const userName = user?.name?.split(" ")[0] || "User";
@@ -185,7 +186,7 @@ const InputPrompt = ({ user }: { user?: User }) => {
         <textarea
           name="prompt"
           ref={inputRref}
-          disabled={msgLoader || !user}
+          disabled={msgLoader}
           placeholder={customPrompt.placeholder ? customPrompt.placeholder : "Enter a prompt here"}
           onChange={handleTextareaChange}
           onKeyDown={handleKeyDown}

@@ -8,9 +8,6 @@ import { useMeasure } from "react-use";
 import { GoogleGenerativeAI } from "@google/generative-ai";
 import { User } from "next-auth";
 import InputActions from "./input-actions";
-import DevButton from "../dev-components/dev-button";
-import { FaSquare } from "react-icons/fa";
-import { GoSquareFill } from "react-icons/go";
 import Link from "next/link";
 import { MdImageSearch } from "react-icons/md";
 import { IoMdClose } from "react-icons/io";
@@ -30,10 +27,9 @@ const InputPrompt = ({ user }: { user?: User }) => {
 
   const generateMsg = useCallback(async () => {
     if (!currChat.userPrompt?.trim() || !user) return;
-    if (!user) { setToast('Please login to use Gemini!') }
     router.push(`/app/${chatID}#new-chat`);
     const date = new Date().toISOString().split("T")[0];
-    const userName = user?.name?.split(" ")[0] || "User";
+    // const userName = user?.name?.split(" ")[0] || "User";
     let rawPrompt = currChat.userPrompt;
     let rawImage = inputImgName;
     const detailedPrompt = `
@@ -145,6 +141,7 @@ const InputPrompt = ({ user }: { user?: User }) => {
 
   const handleKeyDown = useCallback(
     (e: React.KeyboardEvent<HTMLTextAreaElement>) => {
+    if (!user) { setToast('Please login to use Gemini!') }
       if (e.key === "Enter" && !e.shiftKey) {
         cancelRef.current = false;
         generateMsg();
